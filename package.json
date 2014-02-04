@@ -1,0 +1,18 @@
+{
+  "name": "nfejs",
+  "description": "Parse NFE XML.",
+  "version": "0.0.1",
+  "author": "Guilherme Pacheco <guipacheco2@gmail.com>",
+  "main" : "./main",
+  "directories" : {
+    "lib": "./lib"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/guipacheco2/nfejs.git"
+  },
+  "dependencies": {
+    "xml2js": "0.4.*",
+    "underscore": "1.5.*"
+  }
+}
