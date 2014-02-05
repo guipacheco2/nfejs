@@ -1,9 +1,9 @@
 {
   "name": "nfejs",
   "description": "Parse NFE XML.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Guilherme Pacheco <guipacheco2@gmail.com>",
-  "main" : "./main",
+  "main" : "./lib/main",
   "directories" : {
     "lib": "./lib"
   },
