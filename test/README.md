@@ -1,7 +1,8 @@
 # Exemplo de uso com base no [NFE.xml](nfe.xml)
 
-## nfe.cobranca.get();
+## Cobrança
 
+#### nfe.cobranca.get()
 ```javascript
 [{
   numero: '6900/1',
@@ -10,12 +11,10 @@
 }]
 ```
 
-## nfe.cobranca.getNumParcelas();
-
+#### nfe.cobranca.getNumParcelas()
 `1`
 
-## nfe.cobranca.getParcelas();
-
+#### nfe.cobranca.getParcelas()
 ```javascript
 [{
   numero: '6900/1',
@@ -24,8 +23,7 @@
 }]
 ```
 
-nfe.cobranca.getParcela(0);
-
+#### nfe.cobranca.getParcela(0)
 ```javascript
 {
   numero: '6900/1',
@@ -34,8 +32,7 @@ nfe.cobranca.getParcela(0);
 }
 ```
 
-## nfe.compra.get();
-
+#### nfe.compra.get()
 ```javascript
 {
   pedido: '10466321803',
@@ -43,20 +40,19 @@ nfe.cobranca.getParcela(0);
 }
 ```
 
-## nfe.compra.getPedido();
-
+#### nfe.compra.getPedido()
 ```javascript
 10466321803
 ```
 
-## nfe.compra.getContrato();
-
+#### nfe.compra.getContrato()
 ```javascript
 null
 ```
 
-## nfe.destino.get();
+## Destino
 
+#### nfe.destino.get()
 ```javascript
 {
   cnpj: 65651231523616,
@@ -66,34 +62,29 @@ null
 }
 ```
 
-## nfe.destino.getCNPJ();
-
+#### nfe.destino.getCNPJ()
 ```javascript
 65651231523616
 ```
 
-## nfe.destino.getNome();
-
+#### nfe.destino.getNome()
 ```javascript
 Empresa Compradora LTDA ME
 ```
 
-## nfe.destino.getIE();
-
+#### nfe.destino.getIE()
 ```javascript
 565564564566
 ```
 
-## nfe.destino.getEmail();
-
+#### nfe.destino.getEmail()
 ```javascript
 e@mail.com
 ```
 
-- Destino extends Endereço
+### Destino extends Endereço
 
-## nfe.destino.getEndereco();
-
+#### nfe.destino.getEndereco()
 ```javascript
 {
   logradouro: 'Rua Pedro',
@@ -107,56 +98,49 @@ e@mail.com
 }
 ```
 
-## nfe.destino.getLogradouro();
-
+#### nfe.destino.getLogradouro()
 ```javascript
 Rua Pedro
 ```
 
-## nfe.destino.getNumero();
-
+#### nfe.destino.getNumero()
 ```javascript
 1547
 ```
 
-## nfe.destino.getBairro();
-
+#### nfe.destino.getBairro()
 ```javascript
 JARDIM CACIQUE
 ```
 
-## nfe.destino.getMunicipio();
-
+#### nfe.destino.getMunicipio()
 ```javascript
 Suzano
 ```
 
-## nfe.destino.getUF();
-
+#### nfe.destino.getUF()
 ```javascript
 SP
 ```
 
-## nfe.destino.getCEP();
-
+#### nfe.destino.getCEP()
 ```javascript
 8615020
 ```
 
-## nfe.destino.getPais();
-
+#### nfe.destino.getPais()
 ```javascript
 Brasil
 ```
 
-## nfe.destino.getTelefone();
-
+#### nfe.destino.getTelefone()
 ```javascript
 1156464566
 ```
 
-## nfe.emissor.get();
+## Emissor
 
+#### nfe.emissor.get()
 ```javascript
 {
   cnpj: 12345678912345,
@@ -177,40 +161,34 @@ Brasil
 }
 ```
 
-## nfe.emissor.getCNPJ();
-
+#### nfe.emissor.getCNPJ()
 ```javascript
 12345678912345
 ```
 
-## nfe.emissor.getNome();
-
+#### nfe.emissor.getNome()
 ```javascript
 Emissor Vendedor Ltda
 ```
 
-## nfe.emissor.getFantasia();
-
+#### nfe.emissor.getFantasia()
 ```javascript
 Emissor Vendedor
 ```
 
-## nfe.emissor.getIE();
-
+#### nfe.emissor.getIE()
 ```javascript
 354565489564
 ```
 
-## nfe.emissor.getCRT();
-
+#### nfe.emissor.getCRT()
 ```javascript
 3
 ```
 
-- Emissor extends Endereço
+### Emissor extends Endereço
 
-## nfe.emissor.getEndereco();
-
+#### nfe.emissor.getEndereco()
 ```javascript
 {
   logradouro: 'Rua João',
@@ -224,56 +202,49 @@ Emissor Vendedor
 }
 ```
 
-## nfe.emissor.getLogradouro();
-
+#### nfe.emissor.getLogradouro()
 ```javascript
 Rua João
 ```
 
-## nfe.emissor.getNumero();
-
+#### nfe.emissor.getNumero()
 ```javascript
 1501
 ```
 
-## nfe.emissor.getBairro();
-
+#### nfe.emissor.getBairro()
 ```javascript
 Vila Marques
 ```
 
-## nfe.emissor.getMunicipio();
-
+#### nfe.emissor.getMunicipio()
 ```javascript
 Americana
 ```
 
-## nfe.emissor.getUF();
-
+#### nfe.emissor.getUF()
 ```javascript
 SP
 ```
 
-## nfe.emissor.getCEP();
-
+#### nfe.emissor.getCEP()
 ```javascript
 13473000
 ```
 
-## nfe.emissor.getPais();
-
+#### nfe.emissor.getPais()
 ```javascript
 Brasil
 ```
 
-## nfe.emissor.getTelefone();
-
+#### nfe.emissor.getTelefone()
 ```javascript
 1123456878
 ```
 
-## nfe.identificador.get();
+## Identificador
 
+#### nfe.identificador.get()
 ```javascript
 {
   uf: 35,
@@ -292,86 +263,74 @@ Brasil
 }
 ```
 
-## nfe.identificador.getUF();
-
+#### nfe.identificador.getUF()
 ```javascript
 35
 ```
 
-## nfe.identificador.getChave();
-
+#### nfe.identificador.getChave()
 ```javascript
 8083
 ```
 
-## nfe.identificador.getNaturezaOperacao();
-
+#### nfe.identificador.getNaturezaOperacao()
 ```javascript
 Venda
 ```
 
-## nfe.identificador.getIndicacaoPagamento();
-
+#### nfe.identificador.getIndicacaoPagamento()
 ```javascript
 1
 ```
 
-## nfe.identificador.getModelo();
-
+#### nfe.identificador.getModelo()
 ```javascript
 55
 ```
 
-## nfe.identificador.getSerie();
-
+#### nfe.identificador.getSerie()
 ```javascript
 1
 ```
 
-## nfe.identificador.getNumero();
-
+#### nfe.identificador.getNumero()
 ```javascript
 6900
 ```
 
-## nfe.identificador.getDataEmissao();
-
+#### nfe.identificador.getDataEmissao()
 ```javascript
 Tue Nov 12 2013 22:00:00 GMT-0200 (BRST)
 ```
 
-## nfe.identificador.getTipo();
-
+#### nfe.identificador.getTipo()
 ```javascript
 1
 ```
 
-## nfe.identificador.getMunicipioFatoGerador();
-
+#### nfe.identificador.getMunicipioFatoGerador()
 ```javascript
 3501608
 ```
 
-## nfe.identificador.getDigitoVerificador();
-
+#### nfe.identificador.getDigitoVerificador()
 ```javascript
 0
 ```
 
-## nfe.identificador.getAmbiente();
-
+#### nfe.identificador.getAmbiente()
 ```javascript
 1
 ```
 
-## nfe.identificador.getFinalidade();
-
+#### nfe.identificador.getFinalidade()
 ```javascript
 1
 ```
 
-## nfe.produtos.get();
+## Produtos
 
+#### nfe.produtos.get()
 ```javascript
 { '0':
    { cProd: [ '12.2432.00' ],
@@ -497,18 +456,18 @@ Tue Nov 12 2013 22:00:00 GMT-0200 (BRST)
   count: 5 }
 ```
 
-## nfe.produtos.getNumProdutos();
-
+#### nfe.produtos.getNumProdutos()
 ```javascript
 5
 ```
+
+## Produto
 
 ```javascript
 var prod0 = nfe.produtos.get(0);
 ```
 
-## prod0.get();
-
+#### prod0.get()
 ```javascript
 { codigo: '12.2432.00',
   ean: 7891342010177,
@@ -527,100 +486,84 @@ var prod0 = nfe.produtos.get(0);
   impostos: { icms: { orig: 0, cst: 60, bcStRet: 10.5, icmsStRet: 10.5 } } }
 ```
 
-## prod0.getCodigo();
-
+#### prod0.getCodigo()
 ```javascript
 12.2432.00
 ```
 
-## prod0.getEAN();
-
+#### prod0.getEAN()
 ```javascript
 7891342010177
 ```
 
-## prod0.getDescricao();
-
+#### prod0.getDescricao()
 ```javascript
 FILTROS TECFIL TM2-PH10908 MIX 3/4-2-W7MULTI3/4D-PSL34MP AUDI/FORD/VW UN
 ```
 
-## prod0.getNCM();
-
+#### prod0.getNCM()
 ```javascript
 84212300
 ```
 
-## prod0.getCFOP();
-
+#### prod0.getCFOP()
 ```javascript
 5405
 ```
 
-## prod0.getUCom();
-
+#### prod0.getUCom()
 ```javascript
 UN
 ```
 
-## prod0.getQCom();
-
+#### prod0.getQCom()
 ```javascript
 5
 ```
 
-## prod0.getVUnCom();
-
+#### prod0.getVUnCom()
 ```javascript
 8.6
 ```
 
-## prod0.getValor();
-
+#### prod0.getValor()
 ```javascript
 43
 ```
 
-## prod0.getEANTrib();
-
+#### prod0.getEANTrib()
 ```javascript
 7891342010177
 ```
 
-## prod0.getUTrib();
-
+#### prod0.getUTrib()
 ```javascript
 UN
 ```
 
-## prod0.getQTrib();
-
+#### prod0.getQTrib()
 ```javascript
 5
 ```
 
-## prod0.getVUnTrib();
-
+#### prod0.getVUnTrib()
 ```javascript
 8.6
 ```
 
-## prod0.getIndTot();
-
+#### prod0.getIndTot()
 ```javascript
 1
 ```
 
-## prod0.getImpostos();
-
+#### prod0.getImpostos()
 ```javascript
 { icms: { orig: 0, cst: 60, bcStRet: 10.5, icmsStRet: 10.5 } }
 ```
 
-- Produto extends Impostos
+### Produto extends Impostos
 
-## prod0.ICMS.get();
-
+#### prod0.ICMS.get()
 ```javascript
 {
   orig: 0,
@@ -630,32 +573,29 @@ UN
 }
 ```
 
-## prod0.ICMS.getOrig();
-
+#### prod0.ICMS.getOrig()
 ```javascript
 0
 ```
 
-## prod0.ICMS.getCST();
-
+#### prod0.ICMS.getCST()
 ```javascript
 60
 ```
 
-## prod0.ICMS.getBCSTRet();
-
+#### prod0.ICMS.getBCSTRet()
 ```javascript
 58.36
 ```
 
-## prod0.ICMS.getICMSSTRet();
-
+#### prod0.ICMS.getICMSSTRet()
 ```javascript
 10.5
 ```
 
-## nfe.total.get();
+## Total
 
+#### nfe.total.get()
 ```javascript
 { icms:
    { bc: 0,
@@ -674,8 +614,7 @@ UN
      total: 131.7 } }
 ```
 
-## nfe.total.ICMS.get();
-
+#### nfe.total.ICMS.get()
 ```javascript
 { bc: 0,
   icms: 0,
@@ -693,86 +632,72 @@ UN
   total: 131.7 }
 ```
 
-## nfe.total.ICMS.getBC();
-
+#### nfe.total.ICMS.getBC()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getICMS();
-
+#### nfe.total.ICMS.getICMS()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getBCST();
-
+#### nfe.total.ICMS.getBCST()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getST();
-
+#### nfe.total.ICMS.getST()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getProdutos();
-
+#### nfe.total.ICMS.getProdutos()
 ```javascript
 131.7
 ```
 
-## nfe.total.ICMS.getFrete();
-
+#### nfe.total.ICMS.getFrete()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getSeguro();
-
+#### nfe.total.ICMS.getSeguro()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getDesconto();
-
+#### nfe.total.ICMS.getDesconto()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getII();
-
+#### nfe.total.ICMS.getII()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getIPI();
-
+#### nfe.total.ICMS.getIPI()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getPIS();
-
+#### nfe.total.ICMS.getPIS()
 ```javascript
 0.77
 ```
 
-## nfe.total.ICMS.getCOFINS();
-
+#### nfe.total.ICMS.getCOFINS()
 ```javascript
 null
 ```
 
-## nfe.total.ICMS.getOutro();
-
+#### nfe.total.ICMS.getOutro()
 ```javascript
 0
 ```
 
-## nfe.total.ICMS.getTotal();
-
+#### nfe.total.ICMS.getTotal()
 ```javascript
 131.7
 ```
