@@ -161,8 +161,6 @@ fs.readFile('nfe.xml','utf8',function(err, data) {
 ### Produto
 - `get`:
     - **Returns** `Object` codigo, ean, descricao, ncm, cfop, uCom, qCom, vUnCom, valor, eanTrib, uTrib, qTrib, vUnTrib, indTot e impostos
-- `getProduto`:
-    - **Returns** `Object`
 - `getCodigo`:
     - **Returns** `String`
 - `getEAN`:
