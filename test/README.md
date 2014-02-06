@@ -12,7 +12,9 @@
 ```
 
 #### nfe.cobranca.getNumParcelas()
-`1`
+```javascript
+1
+```
 
 #### nfe.cobranca.getParcelas()
 ```javascript
