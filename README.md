@@ -71,11 +71,11 @@ fs.readFile('nfe.xml','utf8',function(err, data) {
 - `get`:
     - **Returns** `Object` cnpj, nome, ie e email
 - `getCNPJ`:
-    - **Returns** `Number`
+    - **Returns** `String`
 - `getNome`:
     - **Returns** `String`
 - `getIE`:
-    - **Returns** `Number`
+    - **Returns** `String`
 - `getEmail`:
     - **Returns** `String`
 
@@ -84,13 +84,13 @@ fs.readFile('nfe.xml','utf8',function(err, data) {
 - `get`:
     - **Returns** `Object` cnpj, nome, fantasia, ie, crt e endereco
 - `getCNPJ`:
-    - **Returns** `Number`
+    - **Returns** `String`
 - `getNome`:
     - **Returns** `String`
 - `getFantasia`:
     - **Returns** `String`
 - `getIE`:
-    - **Returns** `Number`
+    - **Returns** `String`
 - `getCRT`:
     - **Returns** `Number`
 
